@@ -1,0 +1,13 @@
+const WHAT_TO_BUILD = 'WHAT_TO_BUILD';
+const SELECT_KEY = 'SELECT_KEY';
+const SELECT_QUALITY = 'SELECT_QUALITY';
+
+const APP_STEPS = [
+  WHAT_TO_BUILD,
+  SELECT_KEY,
+  SELECT_QUALITY
+]
+
+Object.freeze(APP_STEPS);
+
+export default APP_STEPS;
